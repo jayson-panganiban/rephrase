@@ -1,6 +1,6 @@
 [project]
 name = "rephrase"
-version = "0.1.0"
+version = "0.1.1"
 description = "A command-line tool to rephrase text in different styles using OpenAI's API."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -30,9 +30,6 @@ dev = [
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[tool.hatch.version]
-path = "rephrase/__init__.py"
-pattern = "__version__ = \"(?P<version>.+)\""
 
 [tool.pytest]
 testpaths = ["tests"]
